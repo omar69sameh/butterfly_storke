@@ -72,6 +72,6 @@ def process_csvs_in_folder(root_folder):
 
 
 if __name__ == "__main__":
-    data_path = os.path.join(os.getcwd(), "C:\\Users\\khale\OneDrive\\Desktop\\mediapip - Copy\\data")
+    data_path = os.path.join(os.getcwd(), "C:\\Users\\khale\\OneDrive\\Documents\\GitHub\\butterfly_storke\\data")
     print(f"\nSearching recursively in: {data_path}\n")
     process_csvs_in_folder(data_path)
